@@ -6,7 +6,7 @@ const postSchema = mongoose.Schema({
    desc: String,
    price: Number,
    discount:Number,
-   category: String
+   category: String,
 },{
     versionKey: false
 });
